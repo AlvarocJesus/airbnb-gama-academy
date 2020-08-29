@@ -54,7 +54,7 @@ fetch(API_URL)
       propertyName.innerHTML = name;
 
       const propertyPrice = document.createElement('p');
-      propertyPrice.innerHTML = `Total de ${price}`;
+      propertyPrice.innerHTML = `Total de R$ ${price.toLocaleString.PTBR}`;
 
       // AOBA! Temos agora, todos os elementos necessários para percorrer a resposta da API e,
       // anexar um ao outro para exibição ao usuário. Para "anexar" os elementos, nós usaremos
